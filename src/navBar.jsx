@@ -51,7 +51,7 @@ export default function NavBar() {
           <div className="button-container">
             <Row>
               <Col xs={12} sm={6} md={6}>
-                <Button variant="light" className="reserveButton">
+                <Button className="reserveButton">
                   RESERVATION
                 </Button>
               </Col>
