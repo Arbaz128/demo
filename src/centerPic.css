@@ -1,0 +1,49 @@
+/* Container 2 Styles (CenteredContainer2) */
+.centeredContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px; /* Adjust the height of container2 */
+  width: 70%; /* Adjust the width of container2 */
+  position: relative; /* Ensure absolute positioning of text inside */
+  left: 50%; /* Position the container horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-image: url('/golden.jpg'); /* Set the background image */
+  background-size: cover; /* Ensure the image covers the whole container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background repetition */
+  color: white; /* White text color */
+  opacity: 0.8; /* Initial opacity for the image */
+  transition: opacity 0.3s ease; /* Smooth opacity transition */
+}
+
+/* Add blue semi-transparent background color with lower opacity */
+.centeredContainer2::before {
+  content: ''; /* Required for pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 123, 255, 0.4); /* Blue with reduced opacity */
+  z-index: -1; /* Place the blue background below the content */
+}
+
+/* Hover effect to change opacity of the image */
+.centeredContainer2:hover {
+  opacity: 1; /* Full opacity on hover for the image */
+}
+
+/* Optional: Text styling inside container */
+.centeredContainer2 div {
+  margin: 10px 0; /* Add spacing between text elements */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .centeredContainer2 {
+    width: 90%; /* Adjust width on smaller screens */
+    height: 400px; /* Reduce height on smaller screens */
+  }
+}

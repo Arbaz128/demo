@@ -1,0 +1,71 @@
+/* Main container background */
+.bcg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fc;
+    height: 100vh;
+    position: relative;
+  }
+  
+  /* Decorative leaf styling */
+  .leaf-container {
+    position: absolute;
+    top: 20px;
+    z-index: 0;
+  }
+  .leaf-image {
+    height: 200px;
+  }
+  
+  /* Content Section Styling */
+  .content-section {
+    width: 50%;
+    margin-left: 20%;
+    z-index: 1;
+  }
+  
+  .openCntr {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .open-status {
+    color: #77ab59;
+    font-weight: bold;
+  }
+  
+  .title h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-style: italic;
+    color: #007bff;
+  }
+  
+  .description {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .reservation-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .reservation-btn:hover {
+    background-color: #007bff;
+  }
+  
