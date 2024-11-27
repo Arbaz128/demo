@@ -42,7 +42,7 @@
   {
     background-color: #F5FAFF;
     color: #007bff;
-    border: 2px solid #007bff;
+    border: 1px solid #007bff !important;
   }
   .reserveButton:hover
   {
@@ -53,8 +53,8 @@
   
   .ordBtn
   {
-    background-color: #007bff;
-    color: #F5FAFF;
+    background-color: #007bff !important;
+    color: #F5FAFF !important;
   }
 
 .mainBlue
