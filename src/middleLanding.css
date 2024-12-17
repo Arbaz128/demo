@@ -6,3 +6,22 @@
 {
     margin:10%;
 }
+.flexing
+{
+    display: flex;
+}
+@media  screen and (min-width:200px) and (max-width:800px) {
+    .flexing
+{
+    display: flex;
+    flex-direction: column;
+}
+.Card1
+{
+    margin: 10%;
+}
+.Card2
+{
+    margin:25%;
+}
+}

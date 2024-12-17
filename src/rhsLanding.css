@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f8f9fc;
+    background-color: #F5F9FF;
     height: 100vh;
     position: relative;
   }
@@ -13,6 +13,7 @@
   .leaf-container {
     position: absolute;
     top: 20px;
+    margin-left: -2.5%;
     z-index: 0;
   }
   .leaf-image {
@@ -28,7 +29,7 @@
   
   .openCntr {
     font-size: 1.2rem;
-    color: #333;
+    color: #007bff;
     margin-bottom: 10px;
   }
   
@@ -68,4 +69,8 @@
   .reservation-btn:hover {
     background-color: #007bff;
   }
-  
+  .opening-hours
+  {
+    background-color: #c9e3ff;
+    padding-left: 3%;
+  }

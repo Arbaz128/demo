@@ -3,7 +3,7 @@ export default function card({name,pic}) {
   return (
     <div>
         <div>
-        <img src={pic}  alt="Daily" className="leaf-image" />
+        <img src={pic}  alt="Daily" width={250}/>
         </div>
         <div style={{display:'flex',justifyContent:'space-between'}}>
             <div>{name}</div>
