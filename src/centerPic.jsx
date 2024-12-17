@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 export default function centerPic() {
   return (
-    <div style={{backgroundColor:'#f8f9fc'}}>
+    <div style={{backgroundColor:'#F5F9FF'}}>
       <div className="centeredContainer2">
         <div><h2>Come say hello</h2></div>
         <div style={{marginTop:'2%'}}>NOV 27, 2024</div>

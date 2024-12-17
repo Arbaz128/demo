@@ -13,9 +13,10 @@ export default function RhsLanding() {
       <div className="content-section">
         <div className="opening-hours">
           <span className="openCntr">
-            Friday <span className="open-status">Open</span> . 7:30 am - 11:30 pm
+            Friday: <span className="open-status">Open</span> . 7:30 am - 11:30 pm
           </span>
         </div>
+        <div style={{marginTop:'15%'}}>
         <div className="title">
           <h2>Restaurant</h2>
           <h2 className="subtitle">of desi cuisines</h2>
@@ -28,6 +29,7 @@ export default function RhsLanding() {
         <button className="reservation-btn">Reservation</button>
         <img src="/leaf2.png" alt="Neerob" style={{marginLeft:'20%'}}/>
         <div>
+        </div>
         </div>
       </div>
     </div>
