@@ -7,14 +7,16 @@ import Blue from './blue';
 import Food from './food';
 import Footer from './footer';
 import Review from './review'
-
+import './lhsLanding.css'
 export default function mainDemo() {
   return (
     <>
     <div style={{backgroundColor:'#f8f9fc',height:'100vh'}}>
     <NavBar/>
     <MainLanding/>
+    <div className='mediaSet'>
     <MiddleLanding/>
+    </div>
     <div style={{marginTop:'5%'}}>
       <CenterPic/>
     </div>
