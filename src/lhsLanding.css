@@ -79,8 +79,76 @@ letter-spacing: -0.5px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
+margin-top: -57%;
+margin-left: 5%
   }
-  
+  .namesSpecial
+  {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 57.6px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: -57%;
+    margin-left: 12% 
+  }
+  .nameDaily2
+  {
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: -57%;
+margin-left: 20%;
+  }
+ 
+  .nameDaily3
+  {
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: -57%;
+margin-left: 3.5%;
+  }
+
+  .nameDaily4
+  {
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: -57%;
+margin-left: 20%;
+  }
+  .nameSpecial
+  {
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: -57%;
+margin-left: 10%;
+  }
   .menu-button:hover {
     background-color: #007bff;
   }
