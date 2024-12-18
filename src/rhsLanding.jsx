@@ -6,7 +6,7 @@ export default function RhsLanding() {
     <div className="bcg">
       {/* Decorative Leaf */}
       <div className="leaf-container">
-        <img src="/leaf.png" alt="Neerob" className="leaf-image" />
+    <img src="/leaf.png" alt="Neerob" className="leaf-image" />
       </div>
 
       {/* Content Section */}
@@ -18,7 +18,7 @@ export default function RhsLanding() {
         </div>
         <div style={{marginTop:'15%'}}>
         <div className="title">
-          <h2>Restaurant</h2>
+          <h2 className="subtitleRes">Restaurant</h2>
           <h2 className="subtitle">of desi cuisines</h2>
         </div>
         <p className="description">

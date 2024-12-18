@@ -8,6 +8,7 @@ import Food from './food';
 import Review from './review'
 import Footer from './footer';
 import LhsLanding from './lhsLanding';
+import RhsLanding from './rhsLanding';
 export default function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ export default function App() {
         <Route path='/' element={<MainDemo />} /> 
         <Route path='/navBar' element={<NavBar />} />
         <Route path='/mainLanding' element={<MainLanding/>} />
+        <Route path='/rhsLanding' element={<RhsLanding/>} />
         <Route path='/middleLanding' element={<MiddleLanding/>} />
         <Route path='/lhsLanding' element={<LhsLanding/>} />
         <Route path='/Food' element={<Food/>} />

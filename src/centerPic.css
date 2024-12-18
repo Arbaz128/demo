@@ -47,3 +47,77 @@
     height: 400px; /* Reduce height on smaller screens */
   }
 }
+.hello
+{
+  font-family: Libre Baskerville;
+font-size: 48px;
+font-style: italic;
+font-weight: 400;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F9F9F9;
+
+}
+.come
+{
+  font-family: Inter;
+font-size: 48px;
+font-weight: 500;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F9F9F9;
+}
+.love
+{
+  font-family: Libre Baskerville;
+font-size: 48px;
+font-style: italic;
+font-weight: 400;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#F9EFE6
+}
+.loveLine
+{
+color:#F9EFE6;
+font-family: Inter;
+font-size: 48px;
+font-weight: 500;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.heading
+{
+  font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 31.2px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F9EFE6;
+}
+.loremTxt{
+color: #F9EFE6;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 31.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}

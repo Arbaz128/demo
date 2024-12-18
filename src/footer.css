@@ -24,15 +24,108 @@
 }
 .input
 {
-    border: 1px solid grey;
-    border-radius: 4px;
-    background-color: #007bff;
-    height: 35px;
+    width: 373.28px;
+    height: 50px;
+    top: 32.5px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    background-color: #2F75E6 !important;
+border-color: #2F75E633;
+border: 1px;
+
+}
+.btn1
+{
+    width: Hug (99.34px)px;
+height: Hug (50px)px;
+left: 273.94px;
+padding: 11px 21.34px 11px 20px;
+gap: 0px;
+border-radius: 0px 4px 4px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+color: #2F75E6;
+border: 1px;
+border-color: #2F75E633;
+}
+.comeSay
+{
+    font-family: Inter;
+font-size: 48px;
+font-weight: 500;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F9EFE6;
+}
+.hello{
+    font-family: Libre Baskerville;
+font-size: 48px;
+font-style: italic;
+font-weight: 400;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
 }
 .btn
 {
-    border: 1px solid grey;
-    background-color: white;
-    color: #007bff;
-    height: 35px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #2F75E6;
+
+}
+.menu
+{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 31.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+.copyRigth
+{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 24.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F5F9FF;
+}
+.newsLetter
+{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+.logo
+{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 500;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
