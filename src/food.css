@@ -1,4 +1,29 @@
-.ourMenu
+.comfort
+{
+    font-family: Libre Baskerville;
+font-size: 48px;
+font-style: italic;
+font-weight: 400;
+line-height: 57.6px;
+letter-spacing: -0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.imgMrg
+{
+    margin:20%;
+}
+@media screen and (min-width:100px) and (max-width: 500px){
+    .imgMrg
+    {
+        margin:0%;
+        width: 100%;
+        margin-top: 6%;
+    }
+}
+.best
 {
     font-family: Inter;
     font-size: 48px;
@@ -9,10 +34,10 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #2F75E6;
-      
 }
-.des
+.lorem
 {
+    color: #2F75E6;
     font-family: Inter;
 font-size: 18px;
 font-weight: 500;
@@ -20,47 +45,16 @@ line-height: 31.5px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-color: #2F75E6;
-
 
 }
-.name
+.about
 {
     font-family: Inter;
-font-size: 32px;
-font-weight: 500;
-line-height: 41.6px;
+font-size: 18px;
+font-weight: 400;
+line-height: 31.5px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #2F75E6;
-
-
-}
-.Card1
-{
-    margin: 5%;
-}
-.Card2
-{
-    margin:10%;
-}
-.flexing
-{
-    display: flex;
-}
-@media  screen and (min-width:200px) and (max-width:900px) {
-    .flexing
-{
-    display: flex;
-    flex-direction: column;
-}
-.Card1
-{
-    width: 100% !important;
-}
-.Card2
-{
-    width: 100% !important;
-}
 }

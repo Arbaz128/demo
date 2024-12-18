@@ -9,12 +9,13 @@ export default function Footer() {
       <Grid container spacing={3} className="mrgn" alignItems="center" justifyContent="center">
         <Grid item xs={12} md={6}>
           <Typography variant="h4" align="center">
-            Come say hello
+            <span className='comeSay'> Come say</span> <span className='hello'>hello</span>
           </Typography>
         </Grid>
         <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
           <Button 
             variant="outlined" 
+            className='btn'
             style={{ backgroundColor: 'white', color: '#007bff', borderColor: '#007bff' }}
           >
             View Weekly Schedule
@@ -28,24 +29,24 @@ export default function Footer() {
       {/* Second Section */}
       <Grid container spacing={3} alignItems="center" justifyContent="center">
         <Grid item xs={12} md={6} lg={6}>
-          <Typography variant="h5" align="center">
+          <Typography variant="h5" align="center" className='logo'>
             Logo
           </Typography>
         </Grid>
         <Grid item xs={12} md={6} lg={6}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <Typography variant="body2" align="center">
+              <Typography variant="body2" align="center" className='menu'>
                 Menu
               </Typography>
             </Grid>
             <Grid item>
-              <Typography variant="body2" align="center">
+              <Typography variant="body2" align="center"  className='menu'>
                 Contact
               </Typography>
             </Grid>
             <Grid item>
-              <Typography variant="body2" align="center">
+              <Typography variant="body2" align="center"  className='menu'>
                 About
               </Typography>
             </Grid>
@@ -77,17 +78,17 @@ export default function Footer() {
         <Grid item xs={12} md={6} lg={6}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <Typography variant="body2" align="center">
+              <Typography variant="body2" align="center"  className='menu'>
                 Schedule
               </Typography>
             </Grid>
             <Grid item>
-              <Typography variant="body2" align="center">
+              <Typography variant="body2" align="center"  className='menu'>
                 Privacy Policy
               </Typography>
             </Grid>
             <Grid item>
-              <Typography variant="body2" align="center">
+              <Typography variant="body2" align="center"  className='menu'>
                 Catering
               </Typography>
             </Grid>
@@ -95,13 +96,13 @@ export default function Footer() {
         </Grid>
       </Grid>
       <div style={{display:'flex',flexDirection:'column',margin:'10%'}}>
-        <div>Sign up for our newsletter</div>
+        <div className='newsLetter'>Sign up for our newsletter</div>
         <div style={{display:'flex',alignItems:'center'}}>
             <input type='email'className='input' />
-            <button className='btn'>Sign up</button>
+            <button className='btn1'>Sign up</button>
         </div>
       </div>
-      <div style={{margin:'10%',marginTop:'-6%',color:'white'}}>
+      <div className='copyRigth'>
         @Example 2023. All Right Reserved.
       </div>
     </div>

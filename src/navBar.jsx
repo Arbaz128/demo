@@ -7,7 +7,6 @@ export default function NavBar() {
   return (
     <>
     <div className='mainBlue'>
-        
         <div className="text1">
             <div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="15"
@@ -43,24 +42,24 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="txtCenter">
+            <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#menu">Menu</Nav.Link>
-            <Nav.Link href="#reservation">Reservation</Nav.Link>
+            <Nav.Link href="#shedule">Schedule</Nav.Link>
+            <Nav.Link href="#reservation">Pakages</Nav.Link>
             <Nav.Link href="#catering">Catering</Nav.Link>
-            <Nav.Link href="#about">About Us</Nav.Link>
+            <Nav.Link href="#about">About </Nav.Link>
           </Nav>
           <div className="button-container">
-            <Row>
-              <Col xs={12} sm={6} md={6}>
                 <Button className="reserveButton">
                   RESERVATION
-                </Button>
-              </Col>
-              <Col xs={12} sm={6} md={6}>
+                </Button> 
+                <div className='marginSet' >
+
                 <Button variant="light" className="ordBtn">
                   ORDER NOW
+                  <img style={{marginTop:'-6px',marginLeft:'5px'}} src='/arrowDown.png' width={20} height={20}/>
                 </Button>
-              </Col>
-            </Row>
+                </div>
           </div>
         </Navbar.Collapse>
       </Container>

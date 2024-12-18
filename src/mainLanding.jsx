@@ -10,7 +10,7 @@ export default function BasicGrid() {
   return (
     <Box sx={{ flexGrow: 1, backgroundColor:'#F5F9FF' }} >
       <Grid container>
-        <Grid item xs={12} md={7} lg={7}>
+        <Grid item xs={12} md={7} lg={7} >
         <RhsLanding/>
         </Grid>
         <Grid  item xs={12} md={5} lg={5}>

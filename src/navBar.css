@@ -1,123 +1,154 @@
-.blueBcg
-{
-    background-color: #437CFF;
+/* Background blue section */
+.blueBcg {
+  background-color: #2F75E6;
+  height: 40px;
 }
-.txtFlex
-{
-    display:'flex';
-    justify-content:'space-around';
-}
-.txtCenter {
-    text-align: center; /* Centers text within the container */
-    margin: 0 auto; /* Ensures the container is centered */
-    display: flex; /* Allows the alignment of items */
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Centers items vertically */
-  }
 
-  /* Add an underline effect for active/hovered Nav.Links */
+.button-container
+{
+  display: flex;
+  justify-content: space-between ;
+}
+/* Flexbox for text */
+.txtFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Centered text with flexbox */
+.txtCenter {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  color: #646464;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+/* Nav link styles */
 .nav-link {
-    position: relative;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    color: #7E7E7E;
+  position: relative;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: #646464;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #007bff !important;
+}
+
+.nav-link.active:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.4px;
+  margin-bottom: -30px;
+  background-color: #007bff; /* Blue underline */
+}
+
+/* Reserve button */
+.reserveButton {
+  background-color: #F5F9FF;
+  color: #2F75E6;
+  border-radius: 6px;
+  height: 52px;
+  width: 156.25px;
+  border: 1px solid #2F75E6 !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.reserveButton:hover {
+  background-color: #F5F9FF;
+  color: #2F75E6;
+  border: 2px solid #2F75E6;
+}
+
+/* Order button */
+.ordBtn {
+  background-color: #2F75E6 !important;
+  color: #F9EFE6 !important;
+  width: 175px;
+  height: 52px;
+  border-radius: 4px;
+}
+
+/* Main blue bar */
+.mainBlue {
+  background-color: #007bff;
+  color: #F5F9FF;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hide mainBlue on small screens */
+@media screen and (max-width: 500px) {
+  .mainBlue {
+      display: none;
   }
-  
-  .nav-link:hover, .nav-link.active {
-    color: #007bff !important;
-  }
-  
-  .nav-link.active:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    margin-bottom: -28px;
-    background-color: #007bff; /* Blue underline color */
-    
+}
+.marginSet
+{
+  margin-left:  15px;
+}
+/* Button container for responsiveness */
+@media screen and (max-width: 500px) {
+  .button-container {
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
   .reserveButton
   {
-    background-color: #F5F9FF;
-    color: #007bff;
-    border: 1px solid #007bff !important;
+    margin-left: 15px;
+    width: 172px;
   }
-  .reserveButton:hover
+  .marginSet
   {
-    background-color: #F5F9FF;
-    color: #007bff;
-    border: 2px solid #007bff;
+    margin-top: 2%;
   }
-  
-  .ordBtn
-  {
-    background-color: #007bff !important;
-    color: #F5F9FF !important;
-  }
-
-.mainBlue
-{
-    display: block;
-    background-color: #007bff;
-    color: #F5F9FF;
-    text-align: center; /* Centers text within the container */
-    margin: 0 auto; /* Ensures the container is centered */
-    display: flex; /* Allows the alignment of items */
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Centers items vertically */
-    
-}
-@media  screen and (min-width:0px) and (max-width:500px) {
-    .mainBlue
-    {
-        display: none;
-    }
-    .button-container
-{
-    text-align: center; /* Centers text within the container */
-    margin: 0 auto; /* Ensures the container is centered */
-    display: flex; /* Allows the alignment of items */
-    justify-content: center; /* Centers items horizontally */
-    align-items: center;
-}
 }
 
-@media  screen and (min-width:0px) and (max-width:990px) {
-   
-    .button-container
-{
-    text-align: center; /* Centers text within the container */
-    margin: 0 auto; /* Ensures the container is centered */
-    display: flex; /* Allows the alignment of items */
-    justify-content: center; /* Centers items horizontally */
-    align-items: center;
+/* Text alignment */
+.text1 {
+  padding-right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.text1
-{
-    padding-right: 3%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-}
-.text2
-{
-    display: flex; /* Allows the alignment of items */
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Centers items vertically */
-}
+
+/* Navbar underline */
 .navbar-line {
-    height: 2px;
-    background-color:rgb(223, 223, 223); /* Blue line color */
-    width: 100%;
-  }
-  .navbar-toggler {
-    border-color: #007bff; /* Optional: Removes border around the toggle button */
-  }
-  
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23007bff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  }
-  
+  height: 2px;
+  background-color: #2F75E633;
+  width: 100%;
+}
+
+/* Navbar toggler */
+.navbar-toggler {
+  border-color: #007bff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23007bff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

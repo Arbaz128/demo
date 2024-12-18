@@ -5,12 +5,28 @@ body {
   background-color: #F5F9FF; /* Light blue background like the image */
 }
 .slider-heading {
-  font-size: 24px;
-  font-weight: bold;
-  color: #007bff;
-  margin-bottom: 20px;
+  font-family: Libre Baskerville;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 57.6px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2F75E6;  
   text-align: center;
-  font-family: 'Arial', sans-serif;
+}
+.nameText
+{
+  font-family: Manrope;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#646464
 }
 .card-slider {
   margin: 50px auto;
@@ -48,18 +64,33 @@ body {
 .testimonial-rating {
   color: #ffc107; /* Gold for stars */
   font-size: 18px;
+  display: flex;
+  width: 173.18px;
+height: 31.08px;
+gap: 4.44px;
+opacity: 0px;
+
+}
+.margin
+{
+  margin-left: 16%;
 }
 
 .testimonial-review {
-  font-style: italic;
-  margin: 10px 0;
-  color: #555;
+  font-family: Manrope;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #8C8C8C;
+}
+.platform-logo
+{
+  margin-left: 1.1%;
 }
 
-.testimonial-platform {
-  color: #4285f4; /* Google blue */
-  font-weight: bold;
-}
 
 .custom-arrow {
   position: absolute;

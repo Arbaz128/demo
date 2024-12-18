@@ -6,7 +6,7 @@ export default function centerPic() {
   return (
     <div style={{backgroundColor:'#F5F9FF'}}>
       <div className="centeredContainer2">
-        <div><h2>Come say hello</h2></div>
+        <div><h2 className='come'>Come say <span className='hello'>hello</span></h2></div>
         <div style={{marginTop:'2%'}}>NOV 27, 2024</div>
         <div style={{marginTop:'2%'}}>Golden Gate Park</div>
         <div>4976 Fulton Street</div>

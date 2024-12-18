@@ -83,7 +83,7 @@ const CardSlider = () => {
       id: 2,
       name: "John Doe",
       image: "/lady2.jpg",
-      review: "Amazing product, exceeded my expectations!",
+      review: "Amazing product!",
       rating: 5,
       platformLogo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
     },
@@ -95,14 +95,7 @@ const CardSlider = () => {
       rating: 4,
       platformLogo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
     },
-    {
-      id: 4,
-      name: "Robert Brown",
-      image: "/lady2.jpg",
-      review: "Simply the best!",
-      rating: 5,
-      platformLogo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    },
+    
   ];
 
   return (
@@ -118,12 +111,16 @@ const CardSlider = () => {
                 className="testimonial-avatar"
               />
               <div>
-                <div className="testimonial-rating">
-                  {"⭐".repeat(testimonial.rating)}
-                </div>
-                <h3>{testimonial.name}</h3>
+              <div className="testimonial-rating">
+  {Array.from({ length: testimonial.rating }).map((_, index) => (
+    <img key={index} src="/star.png" alt="star" />
+  ))}
+</div>
+
               </div>
             </div>
+            <div className="margin">
+                <h3 className="nameText">{testimonial.name}</h3>
             <p className="testimonial-review">"{testimonial.review}"</p>
             <div className="testimonial-platform">
               <img
@@ -132,6 +129,7 @@ const CardSlider = () => {
                 className="platform-logo"
                 style={{ width: 60, height: 25 }}
               />
+            </div>
             </div>
           </div>
         ))}
