@@ -26,6 +26,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 19.2px;
+  position: relative;
+  z-index: 2 !important;
 }
 
 /* Nav link styles */
@@ -64,6 +66,8 @@
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  position: relative;
+      z-index: 2 !important;
 }
 
 .reserveButton:hover {
@@ -111,11 +115,15 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      position: relative;
+      z-index: 2 !important;
   }
   .reserveButton
   {
     margin-left: 15px;
     width: 172px;
+    position: relative;
+      z-index: 2 !important;
   }
   .marginSet
   {
